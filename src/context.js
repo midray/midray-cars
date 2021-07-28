@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const AppContext = React.createContext();
 const url = 'https://mid-ray-airables-project.netlify.app/api/midraycars';
-const exchange_url = `http://data.fixer.io/api/latest?access_key=${process.env.REACT_APP_FIXER_API_KEY}`
+// const exchange_url = `http://data.fixer.io/api/latest?access_key=${process.env.REACT_APP_FIXER_API_KEY}`
 
 
 const defaultState = {
@@ -62,15 +62,15 @@ const ApiProvider = ({children}) =>{
         
        }
 
-       const fetchExchange = async ()=>{
-        try{
-            const response = await axios.get(exchange_url);
-            const {data: {rates: {USD:usd_price, NGN:naira_price}}} = response;
-            dispatch({type: "EXCHANGE", payload:{usd_price, naira_price}})
-        }catch(error){
-            dispatch({type: "EXCHANGE_ERROR"})
-        }
-       }
+    //    const fetchExchange = async ()=>{
+    //     try{
+    //         const response = await axios.get(exchange_url);
+    //         const {data: {rates: {USD:usd_price, NGN:naira_price}}} = response;
+    //         dispatch({type: "EXCHANGE", payload:{usd_price, naira_price}})
+    //     }catch(error){
+    //         dispatch({type: "EXCHANGE_ERROR"})
+    //     }
+    //    }
 
        
 
@@ -82,9 +82,9 @@ const ApiProvider = ({children}) =>{
        dispatch({type: "FILTER_PRODUCTS"})
        },[state.filters])
 
-       useEffect(()=>{
-        fetchExchange();
-    },[])
+    //    useEffect(()=>{
+    //     fetchExchange();
+    // },[])
 
     const findOne = (id) => {
         console.log('id from context', id)
