@@ -1,0 +1,188 @@
+:root {
+  --blue-gray: #0000a0;
+  --chatelle: #bfabd3;
+  --mine-shaft: #303030;
+  --new-york-pink: #d86d80;
+  --white: #ffffff;
+
+  --font-size-l: 19px;
+  --font-size-m: 16px;
+  --font-size-s: 15px;
+  --font-size-xl: 20px;
+  --font-size-xs: 13px;
+  --font-size-xxl: 21px;
+  --font-size-xxxl: 23px;
+  --font-size-xxxxl: 26px;
+  --font-size-xxxxxl: 27px;
+  --font-size-xxxxxxl: 28px;
+  --font-size-xxxxxxxl: 35px;
+  --font-size-xxxxxxxxl: 44px;
+  --font-size-xxxxxxxxxl: 50px;
+  --font-size-xxxxxxxxxxl: 65px;
+
+  --font-family-poppins: "Poppins", Helvetica;
+}
+.poppins-bold-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-normal-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.poppins-normal-mine-shaft-16px-2 {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+}
+.poppins-medium-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-bold-blue-gray-19px {
+  color: var(--blue-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-light-mine-shaft-19px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+}
+.poppins-bold-mine-shaft-23px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-light-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+.poppins-semi-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 600;
+}
+.poppins-normal-new-york-pink-16px {
+  color: var(--new-york-pink);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.poppins-light-white-13px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 300;
+}
+.poppins-medium-blue-gray-16px {
+  color: var(--blue-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-bold-blue-gray-35px {
+  color: var(--blue-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-blue-gray-35px-2 {
+  color: var(--blue-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxxxxl);
+}
+.poppins-light-blue-gray-35px {
+  color: var(--blue-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxxxxl);
+  font-style: normal;
+  font-weight: 300;
+}
+.poppins-medium-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-light-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+.poppins-black-mine-shaft-28px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxxxl);
+  font-style: normal;
+  font-weight: 900;
+}
+.poppins-normal-mine-shaft-23px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.poppins-bold-mine-shaft-20px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-mine-shaft-21px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-style: italic;
+  font-weight: 700;
+}
+.poppins-medium-blue-gray-15px {
+  color: var(--blue-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+.poppins-normal-white-23px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.poppins-light-blue-gray-16px {
+  color: var(--blue-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}

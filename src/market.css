@@ -1,0 +1,363 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color: white;
+}
+:root{
+--darkBrown: lightgrey;
+/* color: li; */
+}
+
+
+
+.nav-toggle {
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+  background: transparent;
+  border-color: transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  color: var(--clr-primary-1);
+  transform: rotate(90deg);
+}
+
+
+.divider{
+  display: grid;
+  width: 100%;
+  min-height: 20vh;
+  background-color: #eaded7;
+  margin-top: 20px;
+  font-size: 2.5rem;
+  /* max-width: 1170px; */
+  align-items: center;
+  /* padding-left: calc(100% - 95vw); */
+}
+
+.divider-container{
+  width:90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+
+
+/* .midrays{
+  position: absolute;
+ top: 17px;
+ right: 120px;
+} */
+
+/* .globals{
+  position: absolute;
+} */
+
+
+
+
+
+.choice{
+  /* background-color: hsl(210, 36%, 96%); */
+  height: 100vh;
+  font-family: "Poppins", Helvetica;
+  /* left: 0px; */
+  /* position: fixed; */
+  /* top: 0px; */
+  /* position: fixed; */
+  /* width: 17rem; */
+  /* margin-right: 3.5rem; */
+  /* flex-shrink: 0 */
+  display: grid;
+  margin-top: 50px;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.title ul{
+  display: grid;
+  gap: 6px;
+  color: #0000a0;
+  
+  margin-top: 10px;
+}
+
+.title ul li{
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.title ul li:hover{
+ opacity: 1;
+ 
+}
+
+.title ul li:visited{
+ text-decoration: underline;
+ 
+}
+
+
+
+.showing{
+    background-color: transparent;
+  color: #303030;
+  flex-shrink: 1;
+  font-family: "Poppins",Helvetica;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 500;
+  height: 20px;
+  letter-spacing: 0.00px;
+  line-height: 21px;
+  /* min-height: 30px; */
+  width: 259px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+  /* margin-top: 1rem; */
+  margin-bottom: 7px;
+}
+
+/* .products_display::-webkit-scrollbar {
+  display: none;
+} */
+
+
+
+
+
+
+
+
+.products{
+ justify-content: center;
+ display: grid;
+ gap: 1rem;
+/* overflow: hidden; */
+}
+
+
+
+
+.car:hover{
+  /* box-shadow: lightgrey; */
+  /* opacity: 0.75; */
+ /* transition: ease-in 1s; */
+  transform: scale(1.01);
+  box-shadow: 0px 6px 17px -9px rgba(0,0,0,0.75);
+}
+
+.car img{
+  background-color: transparent;
+  
+  display: block;
+  object-fit: cover;
+ 
+  width: 100%;
+ 
+}
+
+.car_detail{
+    background-color: transparent;
+    
+
+}
+
+.name{
+  background-color: transparent;
+  height: calc(100.00% + 2px);
+  /* left: 0px; */
+  letter-spacing: 0.00px;
+  line-height: 19px;
+  /* position: absolute; */
+  text-align: left;
+  /* top: 4px; */
+  white-space: nowrap;
+  width: 148px;
+  color: #0000a0;
+  font-family: "Poppins", Helvetica;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 0.5rem;
+ display: inline-block;
+}
+
+.year{
+    background-color: transparent;
+  height: calc(100.00% + 2px);
+  letter-spacing: 0.00px;
+  line-height: 19px;
+  /* position: absolute; */
+  right: 1rem;
+  text-align: left;
+  /* top: 4px; */
+  white-space: nowrap;
+  width: 46px;
+  color: #303030;
+  font-family: "Poppins", Helvetica;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 0.3rem;
+  display: inline-block;
+ margin-left: 3rem;
+}
+
+.price{
+    background-color: transparent;
+  bottom: calc(27.89% - 9px);
+  height: 33px;
+  /* left: 0px; */
+  letter-spacing: 0.00px;
+  line-height: 23px;
+  /* position: absolute; */
+  /* text-align: left; */
+  white-space: nowrap;
+  bottom: 5rem;
+  width: 81px;
+  color: #303030;
+  font-family: "Poppins", Helvetica;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+ 
+}
+
+.features{
+    background-color: transparent;
+  /* bottom: 20px; */
+  /* height: 95px; */
+  /* left: 0px; */
+  /* position: absolute; */
+  /* width: 179px; */
+  margin-top: 1px;
+   
+}
+
+.features, .name, .price{
+  padding: 10px;
+}
+
+.features_type{
+    color: #303030;
+  font-family: "Poppins", Helvetica;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  /* position: relative; */
+  margin-top: 5px;
+}
+
+.features_value{
+    color: #303030;
+  font-family: "Poppins", Helvetica;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.others{
+ display: flex;
+ flex-direction: column;
+ margin-top: 1px;
+}
+
+.search{
+margin-left: 2.5rem;
+margin-top: 1.5rem;
+margin-right: 1rem;
+}
+
+.PrivateValueLabel-circle-4{
+  color: #0000a0;
+  
+}
+
+.PrivateValueLabel-label-5{
+ font-size: 10px;
+}
+
+[data-index="0"]{
+  margin-left: 17px;
+color: white;
+}
+
+[data-index="1"]{
+  margin-left: -10px;
+ color: white;
+}
+
+span.MuiSlider-markLabel{
+  color: white;
+  font-family: "Poppins", Helvetica;
+}
+
+/* @media screen and (min-width: 576px) {
+  .main {
+    grid-template-rows: 1fr 1fr
+  }
+} */
+
+/* @media screen and (min-width: 800px) {
+  .nav-toggle{
+    display: none;
+  }
+} */
+
+/* @media screen and (min-width: 990px){
+  .divider-container{
+    width: 95vw;
+  }
+} */
+
+/* @media screen and (min-width: 780px){
+  .main{
+    width: 90vw;
+    grid-template-columns: 200px 1fr;
+    gap: 0 1rem;
+  }
+  .main .choice{
+    max-width: 200px;
+  }
+}
+
+@media screen and (max-width: 500px ){
+  .choice{
+   margin-top: -10px;
+  }
+  .products_display{
+   /* margin-bottom: -10px; */
+  
+
+
+/* @media screen and (min-width: 992px) {
+  .products{
+     grid-template-columns: repeat(2, 1fr);
+  }
+
+  
+} */
+
+/* @media screen and (min-width: 1170px) {
+  .products{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}  */
+
+/* .foot{
+display: flex;
+} */
