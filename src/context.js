@@ -1,7 +1,5 @@
 
 import React, { useContext, useReducer, useEffect} from 'react';
-
-// import {data} from './data';
 import {reducer} from './reducer';
 import axios from 'axios';
 require('dotenv').config();

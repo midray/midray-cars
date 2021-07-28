@@ -1,10 +1,4 @@
 import React from 'react';
-// import './market.css';
-// import {Slider} from '@material-ui/core';
-// import Collapsible from 'react-collapsible';
-// import { FaBars } from 'react-icons/fa';
-// import {data} from './data'
-// import Footer from './footer'
 import {useGlobalContext} from './context';
 import Loading from './loading';
 
