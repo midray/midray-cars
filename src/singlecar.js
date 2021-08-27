@@ -106,7 +106,7 @@ const SingleCar = () =>{
                     <p className="info">
                         <span>VIN :</span>{VIN}</p>
                       <p className="info">
-                        <span>Fuel Type :</span>{fuel_type}}</p>
+                        <span>Fuel Type :</span>{fuel_type}</p>
                     </div>
 
                     <div className="details-info">
