@@ -47,19 +47,18 @@ const SingleCar = () =>{
   }
   const {fields: {
     name, 
-    yaer, 
+    year, 
     images, 
     price, 
     transmission, 
     fuel_type, 
     mileage, 
-    type, 
-    brand, 
     color, 
     VIN, 
     condition, 
     description,
     engine, 
+    exterior,
     interior, 
     drivetrain, 
     mechanical
@@ -80,7 +79,7 @@ const SingleCar = () =>{
                 <PictureImages images={images}/>
                  <div>
                    <div>
-                   <h3 className="car-name">{name}</h3>
+                   <h3 className="car-name">{name} {year}</h3>
                    <p className="car-price">${price}</p>
                    <h4 className="desc-title">Description</h4>
                    <p className="desc">{description}</p>
@@ -91,42 +90,42 @@ const SingleCar = () =>{
                      <div className="details">
                     <div className="details-info">
                     <p className="info">
-                        <span>Condition :</span> Pre-owned</p>
+                        <span>Condition :</span> {condition}</p>
                       <p className="info">
-                        <span>Mileage :</span>mileage</p>
+                        <span>Mileage :</span>{mileage}</p>
                     </div>
                         
                     <div className="details-info">
                     <p className="info">
-                        <span>Exterior color :</span>Black</p>
+                        <span>Exterior color :</span>{exterior}</p>
                       <p className="info">
-                        <span>Interior :</span>Black</p>
+                        <span>Interior :</span>{interior}</p>
                     </div>
 
                     <div className="details-info">
                     <p className="info">
-                        <span>VIN :</span>VIN</p>
+                        <span>VIN :</span>{VIN}</p>
                       <p className="info">
-                        <span>Fuel Type :</span>fuel type</p>
+                        <span>Fuel Type :</span>{fuel_type}}</p>
                     </div>
 
                     <div className="details-info">
                     <p className="info">
-                        <span>Body :</span>Body</p>
+                        <span>Body :</span>{color}</p>
                       <p className="info">
-                        <span>Drivetrain :</span>RWD</p>
+                        <span>Drivetrain :</span>{drivetrain}</p>
                     </div>
                     <div className="details-info">
                     <p className="info">
-                        <span>Transmission :</span>transmission</p>
+                        <span>Transmission :</span>{transmission}</p>
                         <p className="info">
-                        <span>Engine :</span>Premium Unleaded V 12.6.5I/396</p>
+                        <span>Engine :</span>{engine}</p>
                       
                     </div>
 
                     <div className="details-info">
                     <p className="info">
-                        <span>Mechanical :</span>Torque RPM</p>
+                        <span>Mechanical :</span>{mechanical}</p>
                      </div>
 
                     </div>
