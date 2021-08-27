@@ -21,7 +21,7 @@ const SingleCar = () =>{
       if(error){
         setTimeout(()=>{
           history.push('/')
-        }, 3000)
+        }, 5000)
       }
       // eslint-disable-next-line
     }, [error])
