@@ -81,14 +81,9 @@ const SingleCar = () =>{
                  <div>
                    <div>
                    <h3 className="car-name">{name}</h3>
-                   <p className="car-price">$11000</p>
+                   <p className="car-price">${price}</p>
                    <h4 className="desc-title">Description</h4>
-                   <p className="desc">lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-                   lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-                   lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-                   lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-                   lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-                   </p>
+                   <p className="desc">{description}</p>
                    </div>
                    <hr />
                    <div>
