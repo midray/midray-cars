@@ -17,7 +17,6 @@ const SingleCar = () =>{
     const {id} = useParams();
     const history = useHistory();
     const {getSingleProduct, single_product_loading: loading, single_product_error: error, single_product: product} = useGlobalContext();
-
     useEffect(()=>{
       if(error){
         setTimeout(()=>{
@@ -46,7 +45,25 @@ const SingleCar = () =>{
     
     
   }
-  const {fields: {name, images}} = product;
+  const {fields: {
+    name, 
+    yaer, 
+    images, 
+    price, 
+    transmission, 
+    fuel_type, 
+    mileage, 
+    type, 
+    brand, 
+    color, 
+    VIN, 
+    condition, 
+    description,
+    engine, 
+    interior, 
+    drivetrain, 
+    mechanical
+  }} = product;
   console.log(name)
     return <>
         <NavBar />
@@ -63,7 +80,7 @@ const SingleCar = () =>{
                 <PictureImages images={images}/>
                  <div>
                    <div>
-                   <h3 className="car-name">Benz 230 </h3>
+                   <h3 className="car-name">{name}</h3>
                    <p className="car-price">$11000</p>
                    <h4 className="desc-title">Description</h4>
                    <p className="desc">lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
